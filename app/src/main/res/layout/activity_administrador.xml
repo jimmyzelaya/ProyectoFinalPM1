@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cut_card_backround"
+    tools:context=".ActivityAdmin.ActivityAdministrador">
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Perfil Administrador"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        android:textColor="#605757"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textViewAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:text="Bienvenido: "
+        android:textColor="#222121"
+        android:textColorHint="@android:color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="208dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:layout_marginTop="0dp"
+                android:layout_marginHorizontal="10dp"
+                android:text="Usuarios Registrados: "
+                android:textSize="19dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:text="Clientes: "
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/tvAdminCantClientes"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="10dp"
+                    android:textColor="#091171"
+                    android:text="Clientes "
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:text="Repartidores: "
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/tvAdminCantRepartidores"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#091171"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Repartidores "
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/black"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginHorizontal="40dp"
+                    android:text="Administradores: "
+                    android:textSize="18dp"/>
+
+                <TextView
+                    android:id="@+id/tvAdminCantAdmin"
+                    android:layout_width="140dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="#091171"
+                    android:layout_marginHorizontal="10dp"
+                    android:layout_marginTop="1dp"
+                    android:text="Administradores "
+                    android:textSize="18dp"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnPedidosPendientes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ABFBFBFB"
+        android:text="Pedidos"
+        android:textColor="#000000"
+        app:icon="@drawable/orden"
+        app:iconTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:iconTintMode="screen" />
+
+    <Button
+        android:id="@+id/btnRegisRepartidor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ABFBFBFB"
+        android:text="Registrar Repartidor"
+        android:textColor="#020202"
+        app:icon="@drawable/repartidor"
+        app:iconTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:iconTintMode="screen" />
+
+    <Button
+        android:id="@+id/btnRegisAdmin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ABFBFBFB"
+        android:text="Registrar Administrador"
+        android:textColor="#020202"
+        app:icon="@drawable/administrador"
+        app:iconTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:iconTintMode="screen" />
+
+    <Button
+        android:id="@+id/btnAdminPerfil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ABFBFBFB"
+        android:text="Mi Perfil"
+        android:textColor="#020202"
+        app:icon="@drawable/ordenador_portatil"
+        app:iconTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:iconTintMode="screen" />
+
+    <Button
+        android:id="@+id/btnAdminCerrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:backgroundTint="#ABFBFBFB"
+        android:text="Cerrar Sesión"
+        android:textColor="#020202"
+        app:icon="?attr/actionModeCloseDrawable"
+        app:iconTint="@color/common_google_signin_btn_text_dark_disabled"
+        app:iconTintMode="screen" />
+
+</LinearLayout>

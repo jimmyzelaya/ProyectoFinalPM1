@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.aplicacion.proyectofinalpm1">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ProyectoFinalPM1"
+        android:usesCleartextTraffic="true">
+
+        <!--
+             TODO: Before you run your application, you need a Google Maps API key.
+
+             To get one, follow the directions here:
+
+                https://developers.google.com/maps/documentation/android-sdk/get-api-key
+
+             Once you have your API key (it starts with "AIza"), define a new property in your
+             project's local.properties file (e.g. MAPS_API_KEY=Aiza...), and replace the
+             "YOUR_API_KEY" string in this file with "${MAPS_API_KEY}".
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyCmZqDa-oIrQQSZI5jAD_BLMll8bkRx67Y" />
+
+        <activity
+            android:name=".ActivityClientes.UbicaActivity"
+            android:exported="false"
+            android:label="@string/title_activity_ubica" />
+        <activity
+            android:name=".ActivityRepartidor.MapsActivity"
+            android:exported="false"
+            android:label="@string/title_activity_maps" />
+        <activity
+            android:name=".ActivityAdmin.ActivityDetallePedidos"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityPedidosRegistro"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAdmin.ActivityListadoPedidos"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRepartidor.ActivityPedidosN"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityEvaluarStars"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityCarritoCompras"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityABebes"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityAcercaD"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityBebidasA"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityGranosB"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityCarnes"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityLacteos"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAdmin.ActivityPerfilAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRepartidor.ActivityPerfilRepartidor"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityPerfilCliente"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAdmin.ActivityRegisAdmin"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAdmin.ActivityRegisRepartidor"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityRepartidor.ActivityRepartidor"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityAdmin.ActivityAdministrador"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityCategoria"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityControl.ActivityLogin"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityControl.ActivityRestablecer"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityMenu"
+            android:exported="false" />
+        <activity
+            android:name=".ActivityClientes.ActivityRegisUsu"
+            android:exported="false" />
+        <activity
+            android:name=".ActivitySplash"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ActivityControl.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name="com.theartofdev.edmodo.cropper.CropImageActivity"
+            android:theme="@style/Base.Theme.AppCompat" />
+
+        <service
+            android:name=".ActivityClientes.Notificaciones.Fcm"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+
+</manifest>

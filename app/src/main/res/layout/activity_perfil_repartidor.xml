@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/cut_card_backround"
+    tools:context=".ActivityRepartidor.ActivityPerfilRepartidor">
+
+    <TextView
+        android:id="@+id/textV12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Perfil de Repartidor"
+        android:textAlignment="center"
+        android:textColor="#605757"
+        android:textColorHint="@android:color/black"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgRepartidorImg"
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:background="#00FFFFFF"
+                app:srcCompat="@drawable/perfil_logo"
+                tools:srcCompat="@drawable/perfil_logo" />
+
+            <Button
+                android:id="@+id/btnRepartidorImagen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="0dp"
+                android:backgroundTint="#ABFBFBFB"
+                android:text="Cambiar magen"
+                android:textColor="#000000" />
+
+            <TextView
+                android:id="@+id/txtRepartidorNombre1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Nombre:"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepartidorNombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:hint="Nombre"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtRepartidorApellido1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Apellido:"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepartidorApellido"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Apellido"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtRepartidorTelefono1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Telefono:"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepartidorTelefono"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Telefono"
+                android:maxLength="8"
+                android:textSize="20sp"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtRepartidorDirec1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:ems="10"
+                android:hint="Dirección:"
+                android:inputType="textPersonName"
+                android:textColorHint="@android:color/darker_gray"
+                android:textColor="@android:color/black"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepartidorDirec"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Dirección"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName" />
+
+            <TextView
+                android:id="@+id/txtRepartidorCorreo1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:ems="10"
+                android:hint="Correo:"
+                android:inputType="textPersonName"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/darker_gray"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/txtRepartidorCorreo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:textSize="20sp"
+                android:hint="Correo"
+                android:enabled="false"
+                android:layout_marginHorizontal="10dp"
+                android:textColor="@android:color/black"
+                android:textColorHint="@android:color/black"
+                android:inputType="textPersonName" />
+
+            <Button
+                android:id="@+id/btnRepartidorRCon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="#ABFBFBFB"
+                android:text="Cambiar Contraseña"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnRepartidorGua"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:backgroundTint="#ABFBFBFB"
+                android:text="Guardar Cambios"
+                android:textColor="#000000" />
+
+            <Button
+                android:id="@+id/btnRepartidorRegrM"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="10dp"
+                android:backgroundTint="#ABFBFBFB"
+                android:text="Regresar Al Menu"
+                android:textColor="#000000" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

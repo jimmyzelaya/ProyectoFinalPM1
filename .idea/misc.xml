@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/ProyectoFinalPM1-master/app/src/main/res/layout/activity_dashboard.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Jimmy/AndroidStudioProjects/ProyectoFinalPM1-master/app/src/main/res/layout/activity_granos_b.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_abebes.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_acerca_d.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_administrador.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_bebidas.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_carnes.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_carrito_compras.xml" value="0.25" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_categoria.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_granos_b.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_lacteos.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/carritolistado.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/Proyecto Movil 1 Recursos/ProyectoFinalPM1/app/src/main/res/layout/item.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinal/ProyectoFinalPM1/app/src/main/res/layout/activity_maps.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinal/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_n.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinal/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinal/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_repartidor.xml" value="0.17074275362318841" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_administrador.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_bebidas.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_carnes.xml" value="0.1859375" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_carrito_compras.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_categoria.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_dashboard.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_detalle_pedidos.xml" value="0.1859375" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_editar_usu.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_evaluar_stars.xml" value="0.2" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_granos_b.xml" value="0.18478260869565216" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_listado_pedidos.xml" value="0.1859375" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_login.xml" value="0.22" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_main.xml" value="0.1743659420289855" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_menu.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_cerrados.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_eval.xml" value="0.1859375" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_n.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_pen.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_registro.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_admin.xml" value="0.17" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_cliente.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_repartidor.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_regis_admin.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_regis_pedidos.xml" value="0.18704710144927536" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_regis_repartidor.xml" value="0.16983695652173914" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_regis_usu.xml" value="0.18795289855072464" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_repartidor.xml" value="0.16802536231884058" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_restablecer.xml" value="0.21" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/carritolistado.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/item.xml" value="0.17291666666666666" />
+        <entry key="..\:/Users/Samir Ulloa/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.19375" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_abebes.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_acerca_d.xml" value="0.213768115942029" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_administrador.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_bebidas.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_carnes.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_carrito_compras.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_categoria.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_granos_b.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_lacteos.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_login.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_perfil_usuario.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_regis_usu.xml" value="0.25052083333333336" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_restablecer.xml" value="0.22826086956521738" />
+        <entry key="..\:/Users/angie/AndroidStudioProjects/ProyectoFinalPM1/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/angie/Desktop/Final/ProyectoFinalPM1/app/src/main/res/layout/activity_maps.xml" value="0.20108695652173914" />
+        <entry key="..\:/Users/angie/Desktop/casi terminado/ProyectoFinalPM1/app/src/main/res/layout/activity_pedidos_n.xml" value="0.20108695652173914" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
